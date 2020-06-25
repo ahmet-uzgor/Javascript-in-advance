@@ -12,4 +12,12 @@ This repository includes definitions, code samples, explanations, beneficial lin
     - Advanced Array Features
     - Advanced Object Features
 - JS Advanced Topics 
-    - JS Foundations I ...
+    - JS Foundations I
+        - Execution Context
+        - Lexical Environment
+        - Socpe Chain, Hoisting
+        - Function Invocation
+        - Function Scope vs Block Scope
+        - Dynamic vs Lexical Scope
+        - this, call, apply, bind
+        - IIFE
