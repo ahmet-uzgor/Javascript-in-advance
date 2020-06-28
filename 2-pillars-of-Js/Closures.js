@@ -1,0 +1,1 @@
+// One of 2 pillars of JS is Closures and other is Prototypal Inheritance
