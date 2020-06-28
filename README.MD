@@ -2,6 +2,8 @@
 
 This repository includes definitions, code samples, explanations, beneficial links and more to provide helper documentary for Javascript in advance topics.
 
+- Advanced JS concepts is a collective PDF of JavaScript in advance course on Udemy.
+
 - For more funny way of reading Javascript , read my [JS fuzzy&buzzy](https://medium.com/@ahmetuzgor10/javascript-fuzzy-buzzy-terms-1-368f0c7a5edc) terms series
 
 # Including Subjects
