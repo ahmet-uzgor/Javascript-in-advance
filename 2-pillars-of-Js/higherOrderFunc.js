@@ -50,4 +50,4 @@ function IncreaseSalary(person){
 }
 
 let person1 = {level: 'user', name: 'Ahmet', isAuthenticated: false}
-letPerson(person1, IncreaseSalary); // it authenticates and if authentication is successfull it Increase Salary
+console.log(letPerson(person1, IncreaseSalary)); // it authenticates and if authentication is successfull it Increase Salary
