@@ -12,7 +12,8 @@ function boo(string){
   }
 }
 
-boo('hii)('ahmet')('love'); / It invokes all function respectively 
+boo('hii')('ahmet')('love'); 
+// It invokes all function respectively 
 
 // or
 let closureFunc1 = boo('hii'); // it provides funvtion with "string" variable
