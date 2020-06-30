@@ -20,9 +20,28 @@ boo('hii')('ahmet')('love');
 
 // or
 let closureFunc1 = boo('hii'); // it provides funvtion with "string" variable
-let closureFunc2 = closureFunc('ahmet') // it provides function with "both string & name" variable
-let closureFınc3 = closureFunc2('love') // it provides function with all string - name - name2 variables
+let closureFunc2 = closureFunc1('ahmet') // it provides function with "both string & name" variable
+let closureFunc3 = closureFunc2('love') // it provides function with all string - name - name2 variables
+
 
 /**
  * Encapsulation
  */
+
+const makeNuclearButton = () =>  {
+  let timeWithoutDestruction = 0;
+  const passTime = () => timeWithoutDestruction++;
+  const totalPeaceTime = () => timeWithoutDestruction;
+  const launch = () => {
+    timeWithoutDestruction = -1;
+    return ' Bomb burst';
+  }
+  setInterval(passTime, 1000)
+  return {
+    launch: launch,
+    totalPeaceTime: totalPeaceTime
+  }
+}
+
+const bombActivate = makeNuclearButton();
+console.log(bombActivate.totalPeaceTime())
