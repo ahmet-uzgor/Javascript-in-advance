@@ -4,6 +4,9 @@
 //  the function matters not where we call the function or where we invoke.
 // It means we can use the variable which is out of scope.For Example:
 
+/**
+ * 1-) Memory Efficiency 
+ */
 function boo(string){
   return function(name){
     return function(name2){
@@ -19,3 +22,7 @@ boo('hii')('ahmet')('love');
 let closureFunc1 = boo('hii'); // it provides funvtion with "string" variable
 let closureFunc2 = closureFunc('ahmet') // it provides function with "both string & name" variable
 let closureFınc3 = closureFunc2('love') // it provides function with all string - name - name2 variables
+
+/**
+ * Encapsulation
+ */
