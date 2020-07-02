@@ -15,4 +15,15 @@ class Warrior extends Character {
     }
 }
 
-const fiona = new Warrior('Fiona', 'Sword');
+class Wizard extends Character {
+    constructor(name, weapon, color){
+        super(name, weapon);
+        this.color = color;
+    }
+    makeFort() {
+        return `${this.name} strongest fort in the world`
+    }
+}
+
+const fiona = new Warrior('Fiona', 'Sword', 'Stronger');
+const myWizard = new Wizard('Chormy', 'Dark magic', 'Black');
