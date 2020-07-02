@@ -1,0 +1,1 @@
+// Small Amazon shop working mechanism implementation via functional programming
