@@ -4,8 +4,9 @@ const urls = [
     'https://jsonplaceholder.typicode.com/posts'
 ];
 
-const promise = Promise.all(urls.map(url => {
-    return fetch(url).then(resp => resp.json())
+const promise = Promise.all(urls.map(async url => {
+    const resp = await fetch(url);
+    return await resp.json();
 }))
 
 promise.then(results => {
