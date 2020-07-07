@@ -18,3 +18,12 @@ const getdata = async function() {
     }
 }
 
+
+// new ES9 feature ""for await of""
+const getData2 = async function() {
+    const arrayOfPromises = urls.map(myUrls => fetch(myUrls));
+    for await ( let request of arrayOfPromises) {
+        const data = await request.json();
+        console.log(data);
+    }
+}
