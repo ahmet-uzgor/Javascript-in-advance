@@ -32,3 +32,5 @@ This repository includes definitions, code samples, explanations, beneficial lin
     - Modules in JavaScript
         - IIFE 
         - Module Pattern
+        - CommonJS, AMD, UMD
+        
