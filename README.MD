@@ -24,3 +24,6 @@ This repository includes definitions, code samples, explanations, beneficial lin
         - this, call, apply, bind
         - IIFE
         - Types in JavaScript
+    - Modules in JavaScript
+        - IIFE 
+        - Module Pattern
