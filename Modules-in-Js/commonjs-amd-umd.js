@@ -15,3 +15,20 @@ function fight(char1, char2){
 module.exports =  {
     fight : fight
 }
+
+// AMD syntax Example
+define(['module1','module2'],
+    function(module1Import, module2Import) {
+    'use strict';
+    const module1 = module1Import;
+    const module2 = module2Import;
+
+    function dance(char){
+        console.log(`${char.name} is dancing on the floor`)
+    }
+
+    return {
+        dance: dance
+    }
+    }
+);
