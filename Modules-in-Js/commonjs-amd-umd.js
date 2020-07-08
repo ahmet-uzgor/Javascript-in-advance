@@ -32,3 +32,11 @@ define(['module1','module2'],
     }
     }
 );
+
+// UMD Syntax 
+import module1 from "module1";
+import { module2 } from "module2";
+
+export function dance(char){
+    console.log(`${char.name} is dancing on the floor`)
+}
