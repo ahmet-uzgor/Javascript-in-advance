@@ -12,3 +12,16 @@ function fail(){
 }
 
 fail();
+
+// Promise error handling
+Promise.resolve('async fail')
+    .then(response => {
+        return response
+    })
+    .then(response => {
+        console.log(response)
+        throw new Error('simple error');
+    })
+    .catch(error => {
+        console.log(error)
+    })
